@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./integrador.css"> 
     <title>Trabajo Practico Integrador</title>
 </head>
 
 <body>
     <header>
         <!-- NAVBAR Bootstrap con logo codo a codo -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg bg-dark d-flex">
             <div class="container-fluid">
-                <div class="col-5">
-                <a class="navbar-brand" href="#">
+                <div class="col-5" id="titulologo">
+                <a class="navbar-brand d-flex align-items-center" href="#" id="navbarlogotexto">
                   <img src="./imagenes/codoacodologotransp.png" alt="" width="100"  class="d-inline-block align-text-top">
-                  Conf Bs As
+                  <strong class="text-white">Conf Bs As</strong>
                 </a>
               </div>
 
@@ -25,22 +26,22 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#">La Conferencia</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Los Oradores</a>
+                    <a class="nav-link text-secondary" href="#">Los Oradores</a>
                   </li>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">El lugar y la fecha</a>
+                  <a class="nav-link text-secondary" href="#">El lugar y la fecha</a>
                 </li>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Conviertete en orador</a>
+              <a class="nav-link text-secondary" href="#">Conviertete en orador</a>
             </li>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Comprar tickets</a>
+              <a class="nav-link text-success" href="#">Comprar tickets</a>
             </li>
                   
                 </ul>
@@ -50,15 +51,69 @@
           </nav>
     </header>
     <main>
-        <!-- SECT 1 - SLIDER CON PRESENTACION -->
+        <!-- SECT 1 - PRESENTACION -->
         <section>
 
+          <div class="container-fluid d-flex align-items-center" id="presentacion">
+            <div class="row">
+            <div class="col-6">
+            
+            </div>
+            <div class="col-6" id="textopresentacion">
+            <h2> Conf Bs As</h2>
+            <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+            <div class="buttons"></div>
+            <button type="button" class="btn btn-outline-light">Quiero ser orador</button> 
+            <button type="button" class="btn btn-success">Comprar tickets</button>
+            </div>
+          </div>
+            </div>
+           </div>
+
         </section>
+        <br>
 
         <!-- SECT 2 - TEXTO "CONOCE A LOS ORADORES" -->
-        <section></section>
+        <section>
+          <div></div>      
+          <p class="textocentrado">CONOCE A LOS</p>
+          <p class="textocentrado" id="oradorestext">ORADORES</p>
+          <div></div>
+        </section>
+
+
         <!-- SECT 3 - LAS 3 CARDS DE LOS ORADORES -->
-        <section></section>
+        <section>
+        <div class="row d-flex justify-content-center">
+
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </section>
         <!-- SECT 4 - CONTAINER FLEXBOX CON FOTO PLAYA E INFO BS AS EN OCTUBRE -->
         <section></section>
         <!-- SECT 5 - TEXTO "CONVIERTETE EN UN ORADOR, CUANTANOS DE QUE QUIERES HABLAR"-->
