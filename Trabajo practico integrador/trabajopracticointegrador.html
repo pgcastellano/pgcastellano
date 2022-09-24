@@ -86,44 +86,119 @@
         <section>
         <div class="row d-flex justify-content-center">
 
+
         <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="./imagenes/steve.jpeg" class="card-img-top" alt="Steve Jobs">
+          <div> 
+          <span class="badge bg-warning text-dark">Javascript</span>
+          <span class="badge bg-info text-ligth">React</span>
+        </div>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">Steve Jobs</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis labore laboriosam odit nesciunt doloribus modi suscipit, magnam est, et quam officiis quis repellat delectus unde. Nihil rerum sapiente nostrum ratione!</p>
           </div>
         </div>
 
         <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="./imagenes/bill.jpeg" class="card-img-top" alt="Bill Gates">
+          <div> 
+          <span class="badge bg-warning text-dark">Javascript</span>
+          <span class="badge bg-info text-ligth">React</span>
+        </div>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">Bill Gates</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis labore laboriosam odit nesciunt doloribus modi suscipit, magnam est, et quam officiis quis repellat delectus unde. Nihil rerum sapiente nostrum ratione!</p>
           </div>
         </div>
 
         <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="./imagenes/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
+          <div> 
+            <span class="badge bg-secondary">Negocios</span>
+            <span class="badge bg-danger">Startups</span>
+        </div>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title">Ada Lovelace</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis labore laboriosam odit nesciunt doloribus modi suscipit, magnam est, et quam officiis quis repellat delectus unde. Nihil rerum sapiente nostrum ratione!</p>
           </div>
         </div>
+
       </div>
     </section>
-        <!-- SECT 4 - CONTAINER FLEXBOX CON FOTO PLAYA E INFO BS AS EN OCTUBRE -->
-        <section></section>
-        <!-- SECT 5 - TEXTO "CONVIERTETE EN UN ORADOR, CUANTANOS DE QUE QUIERES HABLAR"-->
-        <section></section>
-        <!-- SECT 6 - FORM CONTACTO CENTRADO -->
-    </main>
-    <!-- SECT 7 - FOOTER -->
-    <footer>
 
-    </footer>
+    <br>
+
+        <!-- SECT 4 - FOTO PLAYA E INFO BS AS EN OCTUBRE -->
+        <section>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-6 m-0 p-0">
+                <img src="./imagenes/hawai.jpeg" width="100%" alt="Playa Buenos Aires">
+
+              </div>
+              <div class="col-6 bg-dark bg-secondary text-white border-start border-light p-4" id="BsAsOctubre">
+                <h4>Bs As Octubre</h4>
+                <p>Buenos Aires es la provincia y localidad más grande de Argentina, en los Estados Unidos, Honolulu es Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse labore perferendis enim ea a maxime! Autem accusamus ea consectetur quos consequatur mollitia tempora modi voluptas labore in, sit dignissimos vero.</p>
+                <button type="button" class="btn btn-outline-light">Conocé más</button>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <br>
+
+
+        <!-- SECT 5 - TEXTO "CONVIERTETE EN UN ORADOR, CUANTANOS DE QUE QUIERES HABLAR"-->
+        <section>       
+          <div></div>      
+          <p class="textocentrado">CONVIÉRTETE EN UN</p>
+          <p class="textocentrado" id="oradorestext">ORADOR</p>
+          <p class="textocentrado">Anótate como un orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+          <div></div>
+        </section>
+        <br>
+        <!-- SECT 6 - FORM CONTACTO  -->
+        <section>
+          
+          <form class="row g-3 d-grid gap-2 col-6 mx-auto">
+
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+              </div>
+            </div>
+            <div class="col-12 form-textarea">
+              <textarea class="form-control form__message" id="exampleFormControlTextarea1" rows="7" placeholder="Sobre qué quieres hablar?"></textarea>
+          </div>
+          
+            <p>Recuerda incluir un título para tu charla</p>
+            
+            <div class="d-grid gap-2 col-12 mx-auto">
+              <button class="btn btn-success" type="button">Enviar</button>
+            </div>
+          </form>
+        </section>
+    </main>
+    <br>
+    <!-- SECT 7 - FOOTER --> 
+
+    <div class="container-fluid" id="footer">
+      <footer class="py-3 my-4 px-5">
+        <ul class="nav justify-content-center">
+          <li class="nav-item"><a href="#" class="nav-link px-5 text-muted">Preguntas Frecuentes</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-5 text-muted">Contáctanos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-5 text-muted">Prensa</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-5 text-muted">Conferencia</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-5 text-muted">Términos y condiciones</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-5 text-muted">Privacidad</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-5 text-muted">Estudiantes</a></li>
+        </ul>
+      </footer>
+    </div>
+
    
 </body>
 </html>
