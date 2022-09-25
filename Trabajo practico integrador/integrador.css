@@ -7,8 +7,38 @@ align-items: center;
 margin-left: 50px;
 }
 
-#presentacion {
+/* #presentacion {
     height: 700px;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),  url(./imagenes/slider.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0%;
+    display: flex;
+} */
+
+.intro{
+    height: 650px;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),  url(./imagenes/slider.jpeg);
+    background-size: cover;
+    background-image: no-repeat;
+    /* background-position: 50% 60%; */
+    display: flex;
+    /* justify-content: end; */
+    align-items: center;
+}
+
+
+#textopresentacion {
+    padding: 7%;
+    text-align: right;
+    margin-left: 50%;
+}
+
+#cardpresentacion {
+    /* height: 700px;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),  url(./imagenes/slider.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -17,13 +47,18 @@ margin-left: 50px;
     margin-right: 0%;
     padding: 0%;
     text-align: right;
+    display: flex; */
+
+    /* height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url(./images/slider.jpg);
+    background-size: cover;
+    background-image: no-repeat;
+    background-position: 50% 60%;
     display: flex;
-}
+    justify-content: end;
+    align-items: center; */
 
-#textopresentacion {
-    padding: 7%;
 }
-
 
 
 .textocentrado {
@@ -52,6 +87,14 @@ margin-left: 50px;
     background-color: #8eb14d;
     border-color: #8eb14d;
 }
+
+#cardHawai {
+    flex-direction: row;
+  }
+
+#cardHawai  img {
+    width: 50%;
+  }
 
 
 element.style {
