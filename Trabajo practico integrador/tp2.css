@@ -57,26 +57,6 @@
 
 /*  FOOTER */
 
-/* #footer {
-    background-color: #205f88;
-
-    
-}
-
-.nav {
-    display: flex;
-    flex-wrap:nowrap;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-
-
-    
-}
-
-.text-muted {
-    color: whitesmoke!important;
-} */
 
 .footer{
     margin-top: 20px;
@@ -104,7 +84,7 @@
     }
 
     .card-intro {
-        width: 40%;
+        width: 75%;
         margin-right: 50px;
         text-align: center;
     }
