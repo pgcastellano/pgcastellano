@@ -1,7 +1,5 @@
 
 
-
-
 #navbarlogotexto {
 align-items: center;
 margin-left: 50px;
@@ -24,12 +22,28 @@ margin-left: 50px;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),  url(./imagenes/slider.jpeg);
     background-size: cover;
     background-image: no-repeat;
-    /* background-position: 50% 60%; */
     display: flex;
-    /* justify-content: end; */
+    justify-content: end;
     align-items: center;
 }
 
+/* @media (max-width: 763px)
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+} */
+
+@media all and (max-width: 763px) {
+    .intro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+
+}
 
 #textopresentacion {
     padding: 7%;
