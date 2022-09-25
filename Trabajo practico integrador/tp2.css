@@ -1,3 +1,8 @@
+
+
+
+
+
 /* CARD INTRO */
 .intro{
     height: 600px;
@@ -23,6 +28,7 @@
 
 #cardHawai {
     flex-direction: row;
+    box-sizing:unset;
   }
 
 #cardHawai  img {
@@ -71,7 +77,7 @@
 }
 
 
-@media all and (max-width: 763px) {
+@media all and (max-width: 768px) {
 
     /*  CARD INTRO */
 
