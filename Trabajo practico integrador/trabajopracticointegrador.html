@@ -26,10 +26,10 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">La Conferencia</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#">La conferencia</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-secondary" href="#">Los Oradores</a>
+                    <a class="nav-link text-secondary" href="#">Los oradores</a>
                   </li>
                 </li>
                 <li class="nav-item">
@@ -37,7 +37,7 @@
                 </li>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-secondary" href="#">Conviertete en orador</a>
+              <a class="nav-link text-secondary" href="#">Conviértete en orador</a>
             </li>
             </li>
             <li class="nav-item">
@@ -71,12 +71,12 @@
            </div>
 
         </section>
-        <br>
+        <!-- <br> -->
 
         <!-- SECT 2 - TEXTO "CONOCE A LOS ORADORES" -->
         <section>
           <div></div>      
-          <p class="textocentrado">CONOCE A LOS</p>
+          <p class="textocentrado" id="textsmall">CONOCE A LOS</p>
           <p class="textocentrado" id="oradorestext">ORADORES</p>
           <div></div>
         </section>
@@ -87,41 +87,50 @@
         <div class="row d-flex justify-content-center">
 
 
-        <div class="card px-0" style="width: 18rem;">
+        <div class="card px-0 m-3" style="width: 18rem;">
           <img src="./imagenes/steve.jpeg" class="card-img-top" alt="Steve Jobs">
+
+          <div class="p-3">
           <div> 
           <span class="badge bg-warning text-dark">Javascript</span>
           <span class="badge bg-info text-ligth">React</span>
         </div>
           <div class="card-body">
-            <h5 class="card-title">Steve Jobs</h5>
+            <h5 class="card-title mb-0">Steve Jobs</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis labore laboriosam odit nesciunt doloribus modi suscipit, magnam est, et quam officiis quis repellat delectus unde. Nihil rerum sapiente nostrum ratione!</p>
           </div>
         </div>
+        </div>
 
-        <div class="card px-0" style="width: 18rem;">
+        <div class="card px-0 m-3" style="width: 18rem;">
           <img src="./imagenes/bill.jpeg" class="card-img-top" alt="Bill Gates">
+          
+          <div class="p-3">
           <div> 
           <span class="badge bg-warning text-dark">Javascript</span>
           <span class="badge bg-info text-ligth">React</span>
         </div>
           <div class="card-body">
-            <h5 class="card-title">Bill Gates</h5>
+            <h5 class="card-title mb-0">Bill Gates</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis labore laboriosam odit nesciunt doloribus modi suscipit, magnam est, et quam officiis quis repellat delectus unde. Nihil rerum sapiente nostrum ratione!</p>
           </div>
         </div>
+      </div>
 
-        <div class="card px-0" style="width: 18rem;">
+        <div class="card px-0 m-3" style="width: 18rem;">
           <img src="./imagenes/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
+
+          <div class="p-3">
           <div> 
             <span class="badge bg-secondary">Negocios</span>
             <span class="badge bg-danger">Startups</span>
         </div>
           <div class="card-body">
-            <h5 class="card-title">Ada Lovelace</h5>
+            <h5 class="card-title mb-0">Ada Lovelace</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis labore laboriosam odit nesciunt doloribus modi suscipit, magnam est, et quam officiis quis repellat delectus unde. Nihil rerum sapiente nostrum ratione!</p>
           </div>
         </div>
+      </div>
 
       </div>
     </section>
@@ -145,13 +154,12 @@
             </div>
           </div>
         </section>
-        <br>
 
 
         <!-- SECT 5 - TEXTO "CONVIERTETE EN UN ORADOR, CUANTANOS DE QUE QUIERES HABLAR"-->
         <section>       
           <div></div>      
-          <p class="textocentrado">CONVIÉRTETE EN UN</p>
+          <p class="textocentrado" id="textsmall">CONVIÉRTETE EN UN</p>
           <p class="textocentrado" id="oradorestext">ORADOR</p>
           <p class="textocentrado">Anótate como un orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
           <div></div>
@@ -174,7 +182,7 @@
               <textarea class="form-control form__message" id="exampleFormControlTextarea1" rows="7" placeholder="Sobre qué quieres hablar?"></textarea>
           </div>
           
-            <p>Recuerda incluir un título para tu charla</p>
+            <p class="m-0" id="textorecuerda">Recuerda incluir un título para tu charla</p>
             
             <div class="d-grid gap-2 col-12 mx-auto">
               <button class="btn btn-success" type="button">Enviar</button>
@@ -186,7 +194,7 @@
     <!-- SECT 7 - FOOTER --> 
 
     <div class="container-fluid" id="footer">
-      <footer class="py-3 my-4 px-5">
+      <footer class="py-3 mt-0 my-4 px-5">
         <ul class="nav justify-content-center">
           <li class="nav-item"><a href="#" class="nav-link px-5 text-muted">Preguntas Frecuentes</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-5 text-muted">Contáctanos</a></li>

@@ -27,9 +27,16 @@ margin-left: 50px;
 }
 
 
+
 .textocentrado {
    text-align: center;
    margin: 0%;
+
+}
+
+#textsmall {
+    font-size: small;
+    margin-top: 10px;
 }
 
 #oradorestext {
@@ -84,4 +91,12 @@ element.style {
 
 .text-muted {
     color: whitesmoke!important;
+}
+
+#exampleFormControlTextarea1 {
+    font-size: large;
+}
+
+#textorecuerda {
+    font-size: small;
 }
