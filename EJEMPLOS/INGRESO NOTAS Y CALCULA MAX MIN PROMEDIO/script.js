@@ -98,3 +98,5 @@ function calcularMinimo(notas) {
     document.getElementById('min').innerHTML = min;
 }
 
+
+
