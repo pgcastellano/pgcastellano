@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+<h2>Agrego il con appendChild</h2>
+    <ul id="miLista">  
+        <li> Primer punto</li>
+    </ul>
+
+
+    <h2>Agrego elementos de un array como il con appendChild</h2>
+
+    <ul id="miLista2">
+        <li>frutilla</li>
+
+    </ul>
+
+
+</body>
+
+<script type="text/javascript">
+
+// 1) CREAR en js el PARENT ELEMENT, que es el UL "miLista"
+    const miLista = document.getElementById('miLista'); 
+
+// 2) CREO el NUEVO ELEMENTO, que es el IL que va ir dentro de la UL
+
+let nuevoItem = document.createElement('li');
+
+// 3) AGREGO TEXTO a mi nuevo ELEMENT, va a quedar => <li> El texto que le agrego </li>
+
+nuevoItem.textContent = "segundo punto";
+
+// 4) AGREGO el NUEVO ITEM (HIJO) dentro del PADRE (MiLista)
+
+miLista.appendChild(nuevoItem);
+
+
+// Otro ejemplo, pero en vez de agregar un solo elemento, quiero agregar todo un array como IL dentro del UL 
+
+
+
+// 1) CREO el PARENT, llamando con el ID al UL que arme en HTML
+
+const miLista2 = document.getElementById('miLista2'); 
+
+// 2) El ARRAY que quiero agregar:
+
+const listaFrutas = ["manzana", "pera", "sandia"];
+
+// 3) ITERO por cada elemento del array y lo agrego como un hijo a la lista padre
+
+for (let fruta of listaFrutas) {
+
+    let nuevaFruta= document.createElement('li');
+
+    nuevaFruta.textContent = fruta;
+
+    miLista2.appendChild(nuevaFruta);
+}
+
+
+
+
+
+
+
+
+</script>
+
+</html>
