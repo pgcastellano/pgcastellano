@@ -1,0 +1,130 @@
+
+/* CARD INTRO */
+.intro{
+    height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),  url(./imagenes/slider.jpeg);
+    background-size: cover;
+    background-image: no-repeat;
+    background-position: 50% 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.card-intro{
+    width: 40%;
+    margin-right: 50px;
+    text-align: end;
+}
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* CARD HAWAI */
+
+#cardHawai {
+    flex-direction: row;
+    box-sizing:unset;
+  }
+
+#cardHawai  img {
+    width: 50%;
+  }
+
+/* FORMULARIO  */
+
+
+.form{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-nombre, .form-apellido{
+    width: 49%;
+    margin-bottom: 8px;
+}
+
+.btn-form{
+    height: 30px;
+    width: 100%;
+    background-color: #8eb14d;
+    transition: .3s;
+    border: none;
+    border-radius: 7px;
+}
+.btn-form:hover{
+    transition: .3s;
+    background-color: grey;
+}
+
+/*  FOOTER */
+
+
+.footer{
+    margin-top: 20px;
+    height: 90px;
+    background-color: #205f88; 
+}
+.btn-pie{
+    text-decoration: none;
+    flex-flow: wrap;
+    width: 20px;
+    text-align: center;
+}
+
+
+@media all and (max-width: 768px) {
+
+    /*  CARD INTRO */
+
+    .intro{
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .card-intro {
+        width: 75%;
+        margin-right: 50px;
+        text-align: center;
+    }
+
+    .btn-card{
+        margin-top: 10px;
+    }
+
+    
+
+    #cardHawai {
+        flex-direction: column;
+    }
+
+    #cardHawai  img {
+        width: 100%;
+      }
+
+      .form{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .form-name, .form-lastname{
+        width: 100%;
+    }
+
+    .footer{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .btn-pie{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+}
+
